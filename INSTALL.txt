@@ -1,0 +1,25 @@
+HARSH TAXI ADMIN UPGRADE
+
+Replace only:
+1. admin.php
+2. admin.css
+
+Keep your existing:
+- db.php
+- book.php
+- admin-setup.php
+- admin-logout.php
+- index.html and other website files
+
+IMPORTANT:
+- Save the files in the same folder as db.php.
+- The dashboard uses the existing bookings columns:
+  id, customer_name, phone, pickup_location, drop_location,
+  journey_date, journey_time, trip_type, status, created_at.
+- The vehicle is shown as Swift Dzire because the supplied booking form
+  does not collect a car selection.
+- WhatsApp buttons open a pre-filled message to the customer's number.
+  The admin must press Send in WhatsApp; it is not sent automatically.
+- This does not send an automatic confirmation when status changes.
+- Make a backup of your current admin.php and admin.css before replacing.
+- Do not share your database or admin password.

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#171819">
+<meta name="description" content="Harsh Taxi Service Agra - Local taxi, outstation and sightseeing rides.">
+<title>Harsh Taxi Service | Agra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <span>Welcome to Harsh Taxi Service</span>
+  <span>Agra, Uttar Pradesh, India</span>
+</div>
+
+<header>
+  <a href="#home" class="logo">
+    <div class="logo-icon">H</div>
+    <div>
+      <h2>HARSH<span>TAXI</span></h2>
+      <p>YOUR RIDE, OUR RESPONSIBILITY</p>
+    </div>
+  </a>
+
+  <button class="menu" id="menuBtn" aria-label="Open navigation menu" aria-expanded="false">☰</button>
+
+  <nav id="navigation">
+    <a href="#home">HOME</a>
+    <a href="#about">ABOUT US</a>
+    <a href="#owner">OWNER</a>
+    <a href="#services">SERVICES</a>
+    <a href="#cars">OUR CAR</a>
+    <a href="#booking">BOOK TAXI</a>
+    <a href="#contact">CONTACT</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-content">
+    <span class="tag">TAXI SERVICE IN AGRA</span>
+    <h1>Your trusted ride <span>across every mile.</span></h1>
+    <p>
+      Comfortable Swift Dzire rides for local travel,
+      outstation journeys and Agra sightseeing.
+    </p>
+    <a href="#booking" class="btn">BOOK YOUR TAXI →</a>
+    <a href="tel:+919759772092" class="btn outline">CALL NOW</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about section" id="about">
+  <div class="about-image">
+    <img src="images/driver-car.jpg"
+         alt="Harsh Taxi driver with Swift Dzire">
+  </div>
+
+  <div class="about-content">
+    <span class="tag">ABOUT HARSH TAXI</span>
+    <h2>Your Journey, Our Responsibility</h2>
+    <p>
+      Welcome to Harsh Taxi Service, Agra. We provide
+      comfortable and reliable taxi services for local
+      travel, outstation trips and sightseeing.
+    </p>
+    <p>
+      Enjoy your journey with our Swift Dzire taxi service.
+      Contact us to enquire about your next trip.
+    </p>
+    <a href="#booking" class="btn">BOOK YOUR RIDE →</a>
+  </div>
+</section>
+
+<!-- OWNER PROFILE -->
+<section class="owner-section section" id="owner">
+  <div class="owner-wrap">
+    <div class="owner-image-wrap">
+      <img class="owner-photo"
+           src="images/vinod-kumar.jpg"
+           alt="Vinod Kumar, owner of Harsh Taxi Service">
+    </div>
+    <div class="owner-copy">
+      <span class="tag">MEET THE OWNER</span>
+      <h2>Vinod Kumar</h2>
+      <h3>Owner – Harsh Taxi Service</h3>
+      <p>
+        Welcome to Harsh Taxi Service, Agra. I am Vinod Kumar,
+        and my aim is to make every journey comfortable and convenient.
+      </p>
+      <p>
+        We welcome your local travel, outstation and Agra sightseeing
+        enquiries. Thank you for choosing Harsh Taxi and trusting us
+        with your journey.
+      </p>
+      <div class="owner-actions">
+        <a href="tel:+919759772092" class="btn">CALL OWNER</a>
+        <a href="https://wa.me/919759772092" class="btn outline"
+           target="_blank" rel="noopener noreferrer">WHATSAPP</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services section" id="services">
+  <div class="section-title">
+    <span class="tag">WHAT WE OFFER</span>
+    <h2>Our Taxi Services</h2>
+  </div>
+
+  <div class="service-grid">
+    <div class="service-card">
+      <img src="images/car-front.jpg" alt="Local taxi service">
+      <div class="card-content">
+        <h3>Local Taxi Service</h3>
+        <p>Comfortable taxi rides for local travel in Agra.</p>
+        <a href="#booking" class="btn">ENQUIRE NOW →</a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/car-side.jpg" alt="Outstation trips">
+      <div class="card-content">
+        <h3>Outstation Trips</h3>
+        <p>Plan your outstation journey from Agra.</p>
+        <a href="#booking" class="btn">ENQUIRE NOW →</a>
+      </div>
+    </div>
+
+    <div class="service-card">
+      <img src="images/car-interior.jpg" alt="Agra sightseeing">
+      <div class="card-content">
+        <h3>Agra Sightseeing</h3>
+        <p>Explore Agra attractions with a locally arranged ride.</p>
+        <a href="#booking" class="btn">ENQUIRE NOW →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CAR GALLERY -->
+<section class="gallery section" id="cars">
+  <div class="section-title">
+    <span class="tag">OUR VEHICLE</span>
+    <h2>Swift Dzire Gallery</h2>
+    <p>Explore our vehicle and its comfortable interior.</p>
+  </div>
+
+  <div class="gallery-grid">
+    <img src="images/car-front.jpg" alt="Car front">
+    <img src="images/car-side.jpg" alt="Car side">
+    <img src="images/car-interior.jpg" alt="Car interior">
+    <img src="images/car-rear.jpg" alt="Car rear">
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="booking section" id="booking">
+  <div class="section-title">
+    <span class="tag">QUICK BOOKING FORM</span>
+    <h2>Book Your Taxi Online</h2>
+    <p>Enter your trip details to send a booking request.</p>
+  </div>
+
+  <div class="booking-box">
+    <h2>Book Your Ride 🚕</h2>
+
+    <form action="book.php" method="POST" id="bookingForm">
+      <div class="form-grid">
+        <div class="field">
+          <label>Customer Name *</label>
+          <input type="text" name="customer_name"
+                 placeholder="Enter your name"
+                 maxlength="100" required>
+        </div>
+
+        <div class="field">
+          <label>Mobile Number *</label>
+          <input type="tel" name="phone"
+                 placeholder="10 digit mobile number"
+                 pattern="[0-9]{10}" maxlength="10" required>
+        </div>
+
+        <div class="field">
+          <label>Pickup Location *</label>
+          <input type="text" name="pickup_location"
+                 placeholder="Pickup address"
+                 maxlength="255" required>
+        </div>
+
+        <div class="field">
+          <label>Drop Location *</label>
+          <input type="text" name="drop_location"
+                 placeholder="Destination address"
+                 maxlength="255" required>
+        </div>
+
+        <div class="field">
+          <label>Journey Date *</label>
+          <input type="date" name="journey_date"
+                 id="journeyDate" required>
+        </div>
+
+        <div class="field">
+          <label>Journey Time *</label>
+          <input type="time" name="journey_time" required>
+        </div>
+
+        <div class="field full">
+          <label>Trip Type *</label>
+          <select name="trip_type" required>
+            <option value="">Select Trip Type</option>
+            <option value="Local">Local Taxi</option>
+            <option value="Outstation">Outstation Trip</option>
+            <option value="Sightseeing">Agra Sightseeing</option>
+          </select>
+        </div>
+
+        <div class="full">
+          <button type="submit" class="submit-btn">
+            SUBMIT BOOKING REQUEST →
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <p class="form-note">
+      We will contact you to confirm your booking.
+    </p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact section" id="contact">
+  <span class="tag">CONTACT US</span>
+  <h2>Need a Taxi in Agra?</h2>
+  <p>Call us or send your trip details on WhatsApp.</p>
+
+  <h3>+91 97597 72092</h3>
+
+  <a href="tel:+919759772092" class="btn">CALL NOW</a>
+  <a href="https://wa.me/919759772092"
+     class="btn outline" target="_blank" rel="noopener noreferrer">WHATSAPP US</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="logo footer-logo">
+    <div class="logo-icon">H</div>
+    <div>
+      <h2>HARSH<span>TAXI</span></h2>
+      <p>YOUR RIDE, OUR RESPONSIBILITY</p>
+    </div>
+  </div>
+
+  <p>Taxi Service in Agra, Uttar Pradesh, India</p>
+  <p>© 2026 Harsh Taxi Service. All Rights Reserved.</p>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="float-buttons">
+  <a href="tel:+919759772092" class="call-float" aria-label="Call">☎</a>
+  <a href="https://wa.me/919759772092" target="_blank"
+     class="whatsapp-float" aria-label="WhatsApp" rel="noopener noreferrer">◉</a>
+</div>
+
+<script src="script.js"></script>
+<script>
+  // Prevent selecting a past journey date.
+  const journeyDate = document.getElementById('journeyDate');
+  const today = new Date();
+  const localToday = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  journeyDate.min = localToday;
+</script>
+</body>
+</html>
